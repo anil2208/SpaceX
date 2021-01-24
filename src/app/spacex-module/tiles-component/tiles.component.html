@@ -1,0 +1,16 @@
+<div class="display-flex">
+  <div class="image-box">
+    <img class="img-tag" src="{{item?.links?.mission_patch_small}}">
+  </div>
+  <div class="content-box text-font-color"><b>{{item?.mission_name}} # {{item?.flight_number}}</b></div>
+  <div class="content-box"> <b>Mission Ids :</b>
+    <ul class="list">
+      <li *ngFor="let mission of item?.mission_id"> <span class="text-font-color">{{mission}}</span></li>
+    </ul>
+  </div>
+  <div class="content-box"><b>Launch Year</b>: <span class="text-font-color">{{item?.launch_year}}</span></div>
+  <div class="content-box"><b>Successful Launch</b>: <span class="text-font-color">{{item?.launch_success}}</span>
+  </div>
+  <div class="content-box"><b>Successful Landing</b>: <span class="text-font-color">{{item?.launch_landing}}</span>
+  </div>
+</div>

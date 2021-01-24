@@ -1,0 +1,16 @@
+.container{
+     overflow: hidden;
+    .left-section{
+        @media (min-width: 768px) {
+            float: left;
+            width: 25%;
+          }
+    }
+    .right-section{
+        @media (min-width: 768px) {
+            float: left;
+            width: 75%;
+          }
+    }
+    
+}

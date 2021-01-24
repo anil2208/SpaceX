@@ -1,0 +1,42 @@
+$backgroud-color: #f2f2f2;
+$text-font-color: rgba(67, 79, 155, 1);
+.filter {
+    background-color: #fff;
+    margin: 16px;
+    border: 1px solid $backgroud-color;
+    border-radius: 2px;
+    padding: 0 16px;
+    h3{
+        margin-top: 8px;
+    }
+    .filter-box {
+        list-style: none;
+        .header {
+            text-align: center;
+            border-bottom: 1px solid;
+            font-size: 20px;
+            margin: 5px auto;
+            width: 75%;
+            padding: 5px;
+            font-weight: normal;
+        }
+        .btn-section {
+            margin: 8px auto;
+            .btn {
+                padding: 5%;
+                font-size: 20px;
+                display: inline-block;
+                margin: 5%;
+                text-transform: capitalize;
+                border: 0;
+                outline: 0;
+                border-radius: 4px;
+                background-color: rgba(197,224, 155,1);
+                width: 40%;
+            }
+            .btn.active{
+                background-color: rgba(124,186, 1,1);
+            }           
+            }
+        }
+    }

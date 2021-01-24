@@ -1,0 +1,40 @@
+$backgroud-color: #f2f2f2;
+$text-font-color: rgba(67, 79, 155, 1);
+.display-flex{
+    background-color: #fff;
+    margin: 16px;
+    border: 1px solid $backgroud-color;
+    border-radius: 2px;
+    padding: 0 16px;
+    @media (min-width: 768px) {
+        display: inline-block;
+        width: 45%;
+        vertical-align: top;    
+        margin: 16px 2.5%;
+      }
+    @media (min-width: 1024px) {
+        width: 22.5%;   
+        margin: 16px 1.25%;
+      }
+    .image-box {
+        text-align: center;
+        background-color: $backgroud-color;
+        margin: 5% 0;
+        .img-tag {
+            display: block;
+            width: 100%;
+        }
+    }
+    .content-box {
+        padding: 5% 0;
+        font-size: 18px;
+        .list {
+            padding: 0 15px;
+            margin: 5px 15px;
+        }
+    }
+    .text-font-color{
+      color: rgba(67, 79, 155, 1);
+    }
+}
+
